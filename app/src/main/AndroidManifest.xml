@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HAGZTeamWorkP">
         <activity
+            android:name=".SecndActivity"
+            android:exported="true"
+            android:label="@string/title_activity_secnd"
+            android:theme="@style/Theme.HAGZTeamWorkP.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
